@@ -1,16 +1,17 @@
 import {
+  acuarela,
   backend,
-  carrent,
   contentCreator,
   css,
+  danisoft,
   docker,
+  dulzia,
   e80,
   figma,
   freelancer,
   git,
   html,
   javascript,
-  jobit,
   mockup,
   mongodb,
   nodejs,
@@ -18,7 +19,6 @@ import {
   redux,
   tailwind,
   threejs,
-  tripguide,
   typescript,
 } from "../assets";
 
@@ -168,9 +168,32 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dulzia Braga",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Ecommerce website that allows users to search for products, provided with Stripe payment platform and Sanity Database, enabling the client to add, edit, modify their own products. Made for small online stores.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mui",
+        color: "violet-text-gradient",
+      },
+    ],
+    image: dulzia,
+    source_code_link: "https://github.com/DANIELASARAI/ecommerce_dulziaBraga",
+    site_link: "https://www.dulziabraga.com/",
+    location: "Braga, Portugal",
+  },
+  {
+    name: "Planeta Acuarela",
+    description:
+      "Web application that enables users to personalise articles such as t-shirts, cups, pillows; filter and buy through Mercado Pago Chile. Admin dashboard to manage orders, products and clients.",
     tags: [
       {
         name: "react",
@@ -181,54 +204,37 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "styled",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: acuarela,
+    site_link: "https://www.planetacuarela.com/",
+    source_code_link: "https://github.com/DANIELASARAI/planetaAcuarela",
+    location: "Santiago, Chile",
   },
   {
-    name: "Job IT",
+    name: "DaniSoft App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Application for small technical businesses to manage clients by creating issue tickets, assign employees, edit and delete them. Also comes with a dashboard to handle the users themselves.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "redux",
+        color: "violet-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: danisoft,
+    site_link: "https://danisoft.onrender.com/",
+    source_code_link: "https://github.com/DANIELASARAI/daniSoft",
+    location: "Braga, Portugal",
   },
 ];
 

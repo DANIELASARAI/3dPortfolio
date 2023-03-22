@@ -34,8 +34,12 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import e80 from "./e80.svg";
 
-import carrent from "./carrent.png";
+import acuarela from "./acuarela.png";
+import danisoft from "./danisoft.png";
+import dulzia from "./dulzia.png";
 import jobit from "./jobit.png";
+import link from "./link.png";
+import site from "./site.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -65,7 +69,6 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
   jobit,
   tripguide,
   internet,
@@ -74,4 +77,9 @@ export {
   contentCreator,
   e80,
   freelancer,
+  dulzia,
+  acuarela,
+  danisoft,
+  site,
+  link,
 };
