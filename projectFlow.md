@@ -9,5 +9,8 @@ g. Also copy the styles.js file into src.
 h. And the tailwind.config.cjs for box shadows, screens and bckground img.
 i. Into src, create utils folder and motion.js file into it. 
 j. Create a new folder called constants, inside a file index.js. Close all the files and npm run dev. Hold ctrl and click  http://127.0.0.1:5173/. 
-2. Routes squeleton of the app. 
-a. On App.jsx, 
+k. Inside BrowserRouter, put the components Navbar, Hero inside it, below, another div=> about, experience, tech and feedbacks, finnaly, cobtact and starscanvas.
+2. Navbar goes, logo, name, about, work and contact. 
+a. Import the stuff needed, remove div and replace it with <nav>. We can research these element classes on tailwindCSS.
+b. Hero bg
+c Computers.jsx 

@@ -12,11 +12,14 @@ import {
   git,
   html,
   javascript,
+  lucca,
   mockup,
   mongodb,
   nodejs,
+  rafael,
   reactjs,
   redux,
+  ricardo,
   tailwind,
   threejs,
   typescript,
@@ -142,27 +145,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I needed a website to start my business here in Portugal, Luis made it possible.",
+    name: "Ricardo Ufre",
+    designation: "CEO",
+    company: "Dulzia Braga",
+    image: ricardo,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I strongly appreciated Luis commitment on reaching team's target. Very passionated Software engineer with strong technical skills.",
+    name: "Lucca Pompetti",
+    designation: "Project Manager",
+    company: "Fameccanica Group",
+    image: lucca,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "After Luis designed our website, our sales increased by 50%. We can't thank them enough!",
+    name: "Rafael Paredes",
+    designation: "CEO",
+    company: "Planeta Acuarela",
+    image: rafael,
   },
 ];
 

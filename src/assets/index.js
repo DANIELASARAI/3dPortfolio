@@ -39,9 +39,12 @@ import danisoft from "./danisoft.png";
 import dulzia from "./dulzia.png";
 import jobit from "./jobit.png";
 import link from "./link.png";
+
+import lucca from "./lucca.jpg";
+import rafael from "./rafael.jpg";
+import ricardo from "./ricardo.jpg";
 import site from "./site.png";
 import tripguide from "./tripguide.png";
-
 export {
   logoNOback1,
   logoNOback2,
@@ -82,4 +85,7 @@ export {
   danisoft,
   site,
   link,
+  lucca,
+  rafael,
+  ricardo,
 };
