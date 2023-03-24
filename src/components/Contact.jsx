@@ -1,3 +1,4 @@
+import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import React, { useRef, useState } from "react";
 
@@ -17,33 +18,31 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    console.log(e);
-    /* const { target } = e;
+    const { target } = e;
     const { name, value } = target;
 
     setForm({
       ...form,
       [name]: value,
-    }); */
+    });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e);
-    /*  setLoading(true);
+    setLoading(true);
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_9rnji14",
+        "template_h08ky9j",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "DaniSoftVille",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "danisoftville@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "LQEszckRjV4gEdlmQ"
       )
       .then(
         () => {
@@ -62,7 +61,7 @@ const Contact = () => {
 
           alert("Ahh, something went wrong. Please try again.");
         }
-      ); */
+      );
   };
 
   return (
